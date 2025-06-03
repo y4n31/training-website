@@ -4,19 +4,19 @@ function Morphology() {
       <article>
         <section>
           <h3 className="h3 text-success">Зовнішній вигляд</h3>
-          <p>Зайці - це маленькі тварини з м'яким пухнастим хутром, яке може бути різного кольору. Вони мають довгі вуха, великі очі та короткий хвіст.</p>
+          <p>Койо́т (Canis latrans ) — хижий ссавець родини Псові. Поширений у Північній Америці. Назва походить від ацтекського слова coyotl, «гавкаючий пес».</p>
         </section>
         <section>
           <h3 className="h3 text-success">Особливості будови</h3>
           <ul>
-            <li>Довжина тіла 55—70 см, довжина клиноподібного хвоста 8—12 см, вага 4—10 кг.</li>
-            <li>Задні ноги в русака набагато довші за передні, ступні вузькі і витягнуті, повністю вкриті шерстю.</li>
-            <li>Вуха довгі, ланцетоподібні, пригнуті до голови, заходять далі, ніж кінець морди; по зовнішньому краю вуха йде темна смуга.</li>
+            <li>Струнке тіло – довгі ноги і гнучкість для швидкого бігу.</li>
+            <li>Гострі чуття – сильний нюх, слух і зір.</li>
+            <li>Маскувальне хутро – сіро-рудий колір для злиття з природою.</li>
           </ul>
         </section>
         <figure className="text-center">
-          <img src="https://tut-cikavo.com/images/7_new/young-hare.jpg" alt="Зайці на лузі" className="img-fluid rounded my-4"/>
-          <figcaption className="text-muted">Молодий заяць</figcaption>
+          <img src="/images/coyote2.webp" alt="Койоти" className="img-fluid rounded my-4"/>
+          <figcaption className="text-muted">Молодий койот</figcaption>
         </figure>
       </article>
     </main>
