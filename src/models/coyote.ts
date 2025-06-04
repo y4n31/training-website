@@ -1,18 +1,18 @@
 import { Schema, model } from 'mongoose';
 
-// Інтерфейс для об'єкта "Заєць"
-interface IRabbit {
-    name: string; // Ім'я зайця
-    age: number; // Вік зайця у роках
-    height: number; // Висота зайця в сантиметрах
-    weight: number; // Вага зайця в кілограмах
-    gender: 'male' | 'female'; // Стать зайця: 'male' - самець, 'female' - самка
-    description?: string; // Опис зайця (необов'язкове поле)
+// Інтерфейс для об'єкта "Койот"
+interface ICoyote {
+    name: string; // Ім'я койота
+    age: number; // Вік койота у роках
+    height: number; // Висота койота в сантиметрах
+    weight: number; // Вага койота в кілограмах
+    gender: 'male' | 'female'; // Стать койота: 'male' - самець, 'female' - самка
+    description?: string; // Опис койота (необов'язкове поле)
     dateAdded: Date; // Дата додавання запису до бази даних
 }
 
-// Схема MongoDB для моделі "Заєць"
-const rabbitSchema = new Schema<IRabbit>({
+// Схема MongoDB для моделі "Койот"
+const coyoteSchema = new Schema<ICoyote>({
     name: {
         type: String,
         required: true, // Поле є обов'язковим
@@ -42,5 +42,5 @@ const rabbitSchema = new Schema<IRabbit>({
 });
 
 // Створення моделі Mongoose на основі схеми
-export const Rabbit = model<IRabbit>('Rabbit', rabbitSchema);
-export type { IRabbit }; // Експортуємо інтерфейс для використання в інших файлах
+export const Coyote = model<ICoyote>('Coyote', coyoteSchema);
+export type { ICoyote }; // Експортуємо інтерфейс для використання в інших файлах
